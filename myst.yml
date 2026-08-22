@@ -11,8 +11,6 @@ project:
   subject: Photo
   venue:
     title: by cjp5826_6734 via  TaiRON, licensed under CC BY 4.0
-  # keywords: []
-  # authors: []
   authors:
     - name: 蔡宜倫
       corresponding: true
@@ -21,7 +19,7 @@ project:
       roles: writing
       url: https://row1.ca
     - name: 莊庭瑞
-  github: https://github.com/Geliiil/Roadkill_research
+  github: https://github.com/Geliiil
   date: 2026/08/22
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
