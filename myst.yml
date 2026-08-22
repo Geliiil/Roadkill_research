@@ -21,7 +21,7 @@ project:
       roles: writing
       url: https://row1.ca
     - name: 莊庭瑞
-  github: https://github.com/Geliiil/roadkill
+  github: https://github.com/Geliiil/Roadkill_research
   date: 2026/08/22
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
