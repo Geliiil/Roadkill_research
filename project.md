@@ -94,7 +94,7 @@ GSV影像裁切範例。
 已有的路殺研究會根據研究目的及內容而採用不同的景觀變數，未有統一需取的之景觀變數條件。故本研究所採用的景觀特徵，為依照預訓練模型其之資料集類別分類。本研究採用的預訓練模型分別以 Cityscapes 與 Mapillary Vistas v1.2 資料集進行訓練。採用 Cityscapes 之模型可辨識19個語意類別 (附錄二)；Mapillary Vistas v1.2 則包含66個標註類別，扣除不納入分析的未標註（unlabeled／void）類別後，可輸出65個有效語意類別 (附錄三)。
 
 ### 2.3.3 模型選用流程
-從 Hugging Face 獲取公開預訓練權重並載入使用。根據預訓練資料集的不同，進行分類別合併，將Mapillary Vista v1.2的類別合併至Cityscape具有的類別，另無法合併定義之類別將不予計入評估。利用已標記之測試集資料，採用MIoU、Macro-Precision、Macro-Recall、Macro-F1及Micro-IoU綜合評估挑選最佳之模型。MIoU評估模型語意分割預測集合與 Ground Truth 集合的交集程度，計算公式如下：
+從 Hugging Face 獲取公開預訓練權重並載入使用。根據預訓練資料集的不同，進行分類別合併，將Mapillary Vista v1.2的類別合併至Cityscape具有的類別，另無法合併定義之類別將不予計入評估。利用已標記之測試集資料，採用MIoU、Macro-Precision、Macro-Recall 及 Macro-F1綜合評估挑選最佳之模型。MIoU評估模型語意分割預測集合與 Ground Truth 集合的交集程度，計算公式如下：
 
 $$
     \mathrm{mIoU}
