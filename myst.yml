@@ -13,25 +13,25 @@ project:
     title: by cjp5826_6734 via  TaiRON, licensed under CC BY 4.0
   authors:
     - name: 蔡宜倫
-      corresponding: true
       email: ge268413975@gmail.com
       github: geliiil
       roles: writing
-      url: https://row1.ca
     - name: 莊庭瑞
   github: https://github.com/Geliiil
-  date: 2026/08/22
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  date: 2026-08-22
+  static_files:
+    - presentation.pdf
   toc:
     - file : project.md
     - file : appendix.md
-  banner : ./image/Ferret-Badger.jpeg
+    - file : presentation.md
+  banner : ./image/Ferret-Badger.webp
   exports:
     - format: pdf
       article: project.md
+  options:
+     favicon: ./image/logo.png
 site:
   title: The Use of Street View Imagery in Roadkill Analysis 
   template: article-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  

@@ -11,7 +11,7 @@ title : 街景影像資料應用於路殺事件分析之可行性：以臺灣鼬
 # 1. 前言
 隨著道路系統持續的延伸與擴張，人為道路與野生動物活動範圍逐漸重疊，不僅造成野生動物棲地切割與破碎化，也增加野生動物穿越道路的風險。在臺灣，從國道至山區及平面道路，不同地區的路殺 (roadkill) 事件頻頻發生，如苗栗與彰化地區石虎路殺、小琉球陸蟹路殺以及鳥類國道路殺。近年來，網際網路、智慧型手機及資訊傳播技術的普及，加上社會大眾逐漸重視生態保育議題與參與公民科學活動，臺灣動物路死觀察網（{abbr}`TaiRON(Taiwan Roadkill Observation Network)`），簡稱路殺社，為聚集許多關注路殺議題之公民科學平台，至今已累積超過33萬筆公民科學路殺觀測資料，為探討臺灣路殺議題提供了豐富的研究資源 ([TaiRON, 2026](https://roadkill.tw/contributor))([](#tairon-logo))。
 
-```{figure} image/turtle_crossing.png
+```{figure} image/turtle_crossing.webp
 :width: 50%
 :align: center
 :name: tairon-logo
@@ -57,7 +57,7 @@ title : 街景影像資料應用於路殺事件分析之可行性：以臺灣鼬
 #### 1. 路殺街景資料
 現今街景服務平台眾多，如 Google Street View (GSV) 、Mapillary 及 Panoramax 等。其中 Google 是最廣為人知、街景與時間涵蓋範圍最廣的街景服務平台。基於 GSV 服務成熟、資料涵蓋範圍廣泛以及資料持續更新，本研究使用GSV作為路殺事件位置與發生時間鄰近之街景影像資料，下載之全景影像將裁切為4方位影像 (1024 × 1024 像素) 進行綜合分析，其中以編號1與3表示道路前後方，編號2與4表示道路兩旁方向 ([](#GSV))。
 
-```{figure} image/GSV.jpg
+```{figure} image/GSV.webp
 :width: 100%
 :align: center
 :name: GSV
@@ -184,7 +184,7 @@ $$
 | total    | 356 (可用資料：339)|
 :::
 
-```{figure} image/roadkill-pa-map.jpg
+```{figure} image/roadkill-pa-map.webp
 :name: roadkill-pa-map
 :align: center
 :width: 90%
@@ -378,7 +378,7 @@ $$
 ### 3.3.3 街景影像資料與路殺事件之關聯
 進一步了解街景影像資料與路殺事件的關聯性，綜合模型顯示障礙物/阻隔設施比例與路殺事件呈現顯著負相關，即在控制其他變數後，障礙物比例較高的地點其發生路殺事件的相對可能性較低 ([](#forest-image))。
 
-```{figure} image/forest-image.jpeg
+```{figure} image/forest-image.webp
 :name: forest-image
 :align: center
 :width: 90%
