@@ -19,8 +19,6 @@ project:
     - name: 莊庭瑞
   github: https://github.com/Geliiil
   date: 2026-08-22
-  static_files:
-    - presentation.pdf
   toc:
     - file : project.md
     - file : appendix.md
