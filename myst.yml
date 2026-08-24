@@ -20,7 +20,7 @@ project:
   github: https://github.com/Geliiil
   date: 2026-08-22
   toc:
-    - file : project.md
+    - file : index.md
     - file : appendix.md
     - file : presentation.md
     - file : map.md
