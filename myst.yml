@@ -27,7 +27,7 @@ project:
   banner : ./image/Ferret-Badger.webp
   exports:
     - format: pdf
-      article: project.md
+      article: index.md
   static_files:
     - files
   options:
