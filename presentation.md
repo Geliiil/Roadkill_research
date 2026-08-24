@@ -1,10 +1,7 @@
 # Slides
 
 ```{hint}
-[全螢幕開啟 Slides ↗](presentation.pdf)
+[開啟 Slides ↗](https://drive.google.com/file/d/1ln35yp8zLdVwlO5MJkVTjrUO58MoLT_D/view?usp=sharing)
 ```
 
-```{iframe} presentation.pdf
-:width: 100%
-:title: 研究簡報
-```
+
