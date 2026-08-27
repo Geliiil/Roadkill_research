@@ -79,8 +79,8 @@ GSV影像裁切範例。
 
 | 資料來源 | 原始資料 | 提取變數 |
 | -------- | -------- | -------- |
-| 國土利用現況結果  | 土地利用面圖層 | 各類土地利用面積比例 (附錄一) |
-| OSM水系  | 河川、溪流等線段  | 最近水系距離 (water_nearest_dis，單位：$m$)、500 m buffer 內水系密度 (water500_den，單位：$km/km^2$)、水系類別 (waterway_type)     |
+| 國土利用現況結果  | 土地利用面圖層 | 500 m buffer 各類土地利用面積比例 (附錄一) |
+| OSM水系  | 河川、溪流等線段  | 最近水系距離 (water_nearest_dis，單位：$m$)、500 m buffer 內水系密度 (water500_den，單位：$km/km^2$)、500 m buffer 水系類別 (waterway_type)     |
 | 20 m DEM     | 高程網格     | 點位海拔 (elev_pt)、 500 m buffer 平均海拔 (e500_mean) 、海拔標準差 (e500_stdev)   |
 | 20 m DEM 衍生坡度     | 坡度網格     | 點位坡度 (slope_pt)、500 m buffer 平均坡度 (slope500_mean) 、 坡度標準差  (slope500_stdev)  |
 | OSM道路     | 道路線段     | 點位所在道路類別 (highway_type)、500 m buffer 內道路密度 (road500_den，單位：$km/km^2$)   |
