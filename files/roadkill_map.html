@@ -185,17 +185,11 @@
       <div id="placeholder">
         <div>
           <h2>臺灣鼬獾研究點位</h2>
-          <p>請點擊地圖上的標記查看360°街景及環境資訊。</p>
+          <p>請點擊地圖上的標記查看環境資訊。</p>
         </div>
       </div>
 
       <div id="point-content">
-
-        <h1 id="point-title"></h1>
-
-        <h2>360°街景影像</h2>
-
-        <div id="panorama"></div>
 
         <h2>點位資訊</h2>
 
@@ -442,7 +436,6 @@
         taironLink.style.display = "none";
       }
 
-      showPanorama(point);
       showChart(point);
 
       document.getElementById(
@@ -451,31 +444,6 @@
         top: 0,
         behavior: "smooth"
       });
-    }
-
-    function showPanorama(point) {
-      if (panoramaViewer) {
-        panoramaViewer.destroy();
-        panoramaViewer = null;
-      }
-
-      document.getElementById(
-        "panorama"
-      ).innerHTML = "";
-
-      panoramaViewer = pannellum.viewer(
-        "panorama",
-        {
-          type: "equirectangular",
-
-          
-          panorama: `panoramas/${point.id}.jpg`,
-
-          autoLoad: true,
-          showFullscreenCtrl: true,
-          showZoomCtrl: true
-        }
-      );
     }
 
     function showChart(point) {
