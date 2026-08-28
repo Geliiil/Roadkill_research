@@ -415,7 +415,11 @@
         taironLink.style.display = "none";
       }
 
-      showChart(point);
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          showChart(point);
+        });
+      });
 
       document.getElementById(
         "detail-panel"
@@ -473,7 +477,15 @@
         }
       );
     }
+    window.addEventListener("resize", () => {
+      map.invalidateSize();
 
+      const chart = document.getElementById("street-chart");
+
+      if (chart && chart.data) {
+        Plotly.Plots.resize(chart);
+      }
+    });
     loadPoints();
   </script>
 
