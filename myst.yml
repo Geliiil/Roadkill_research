@@ -3,7 +3,7 @@ version: 1
 project:
   id: c9ddaba4-fec5-4278-a6b1-97a92973fa01
   title: 擷取街景影像特徵應用於路殺事件分析之可行性：以臺灣鼬獾 (Melogale moschata subaurantiaca) 為例
-  subtitle : Exploring the Application of Street View Imagery to Roadkill Analysis :A Case Study of the Formosan ferret-badger
+  subtitle : Assessing the Feasibility of Using Features Extracted from Street View Imagery for Roadkill Analysis :A Case Study of the Formosan ferret-badger
   description: 擷取街景影像特徵應用於路殺事件分析之可行性
   license:
     content: CC-BY-SA-3.0 
