@@ -429,4 +429,4 @@ $$
 感謝莊老師的指導，以及林德恩老師提供路殺調查數據及研究方向建議。
 
 # 資料集
-本研究數據資料已放置研究資料寄存所depositar，Data Set: https://pid.depositar.io/ark:37281/k5j4n0t65。根據 Google 使用條款，本研究資料集不提供研究點位街景影像原始資料。
+本研究數據資料已放置研究資料寄存所depositar，Data Set: https://pid.depositar.io/ark:37281/k5j4n0t65 。根據 Google 使用條款，本研究資料集不提供研究點位街景影像原始資料。
